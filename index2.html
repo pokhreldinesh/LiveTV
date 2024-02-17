@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HELLOLUMBINI.COM</title>
+  <title>Header Menu Example</title>
   <style>
     body {
       margin: 0;
@@ -20,6 +20,18 @@
     }
 
     .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .logo a {
+      color: #fff;
+      text-decoration: none;
       font-size: 20px;
       font-weight: bold;
     }
@@ -75,14 +87,30 @@
     .sub-menu a:hover {
       background-color: #eee;
     }
+
+    /* Customization options */
+    .logo {
+      /* Customize logo font, size, and color */
+    }
+
+    .nav-menu a {
+      /* Customize font, size, and color */
+    }
+
+    .sub-menu a {
+      /* Customize font, size, and color */
+    }
+
+    /* Add more customization options as needed */
   </style>
 </head>
 <body>
   <header class="header">
-    <div class="logo">HEllo LUMBINI.com</div>
+    <div class="logo">
+      <a href="https://aasraecotreks.com.np/"><img src="https://aasraecotreks.com.np/wp-content/uploads/2018/09/Lumbini.jpg" alt="Logo"></a>
+    </div>
     <nav class="nav-menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">News</a></li>
+      <li><a href="https://hellolumbini.com">Home</a></li> <li><a href="#">News</a></li>
       <li><a href="#">Sports</a></li>
       <li><a href="#">Entertainment</a></li>
       <li><a href="#">More</a></li>
@@ -99,5 +127,4 @@
     </nav>
   </div>
 
-  </body>
-</html>
+  
